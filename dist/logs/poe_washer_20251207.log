@@ -1,0 +1,25 @@
+2025-12-07 11:40:10 - poe_washer - INFO - POE装备洗练工具启动
+2025-12-07 11:40:10 - poe_washer - INFO - 初始化POE装备洗练器
+2025-12-07 11:40:10 - poe_washer - ERROR - 程序运行出错: 'conditional_targets'
+2025-12-07 11:40:10 - poe_washer - INFO - POE装备洗练工具关闭
+2025-12-07 11:40:10 - poe_washer - ERROR - 发生未捕获的异常:
+Traceback (most recent call last):
+  File "auto_washer_gui.py", line 127, in <module>
+  File "auto_washer_gui.py", line 116, in main_entry
+  File "src\ui\washer_gui.py", line 2583, in main
+  File "src\ui\washer_gui.py", line 46, in __init__
+  File "src\core\washer_core.py", line 43, in __init__
+KeyError: 'conditional_targets'
+2025-12-07 11:42:18 - poe_washer - INFO - POE装备洗练工具启动
+2025-12-07 11:42:18 - poe_washer - INFO - 初始化POE装备洗练器
+2025-12-07 11:42:24 - poe_washer - INFO - POE装备洗练工具关闭
+2025-12-07 11:42:49 - poe_washer - INFO - POE装备洗练工具启动
+2025-12-07 11:42:50 - poe_washer - INFO - 初始化POE装备洗练器
+2025-12-07 11:42:56 - poe_washer - INFO - 配置已从 C:/Users/Administrator/Desktop/1.ini 导入
+2025-12-07 11:43:19 - poe_washer - INFO - POE装备洗练工具关闭
+2025-12-07 11:43:44 - poe_washer - INFO - POE装备洗练工具启动
+2025-12-07 11:43:44 - poe_washer - INFO - 初始化POE装备洗练器
+2025-12-07 11:43:46 - poe_washer - INFO - POE装备洗练工具关闭
+2025-12-07 11:51:26 - poe_washer - INFO - POE装备洗练工具启动
+2025-12-07 11:51:26 - poe_washer - INFO - 初始化POE装备洗练器
+2025-12-07 11:51:40 - poe_washer - INFO - POE装备洗练工具关闭

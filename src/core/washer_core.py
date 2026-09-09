@@ -35,6 +35,7 @@ class PoeClipboardWasher:
         self.config = load_config(config_file)
         self.clipboard = ClipboardHandler()
         self.running = False
+        self._manual_stop = False
         self.click_count = 0
         self.current_attempt = 0
         self.last_match_count = 0  # 上次匹配的词条数量
@@ -524,6 +525,7 @@ class PoeClipboardWasher:
         
         # 重置计数器
         self.running = True
+        self._manual_stop = False
         self.click_count = 0
         self.current_attempt = 0
         
@@ -595,6 +597,7 @@ class PoeClipboardWasher:
         """
         logger.info("正在停止洗练操作...")
         self.running = False
+        self._manual_stop = True
     
     def add_target(self, text: str, include: bool = True, enabled: bool = True, min_value: float = None) -> None:
         """
